@@ -52,5 +52,5 @@
 
   //30 Controlling the length of decimals
 
-  let num = 2.345678888
-  console.log(num.toFixed(2));
+//   let num = 2.345678888
+//   console.log(num.toFixed(2));
