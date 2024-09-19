@@ -1,16 +1,19 @@
-let numbers = [12.345, 67.89, 123.4567, 0.9876, 45.678];
+// 1. *Round numbers*  
+//    - Round five given numbers to the nearest integer, tenth, and hundredth, and write the results.
 
-numbers.forEach(num => {
-    let roundedInteger = Math.round(num); // Nearest integer
-    let roundedTenth = Math.round(num * 10) / 10; // Nearest tenth
-    let roundedHundredth = Math.round(num * 100) / 100; // Nearest hundredth
+// let numbers = [12.345, 67.89, 123.4567, 0.9876, 45.678];
 
-    console.log(`Original number: ${num}`);
-    console.log(`Rounded to nearest integer: ${roundedInteger}`);
-    console.log(`Rounded to nearest tenth: ${roundedTenth}`);
-    console.log(`Rounded to nearest hundredth: ${roundedHundredth}`);
-    console.log('---');
-});
+// numbers.forEach(num => {
+//     let roundedInteger = Math.round(num); // Nearest integer
+//     let roundedTenth = Math.round(num * 10) / 10; // Nearest tenth
+//     let roundedHundredth = Math.round(num * 100) / 100; // Nearest hundredth
+
+//     console.log(`Original number: ${num}`);
+//     console.log(`Rounded to nearest integer: ${roundedInteger}`);
+//     console.log(`Rounded to nearest tenth: ${roundedTenth}`);
+//     console.log(`Rounded to nearest hundredth: ${roundedHundredth}`);
+//     console.log('---');
+// });
 
 // 2. *Generate a list of random numbers*  
 //    - Generate five random numbers between 1 and 100 and display them.
