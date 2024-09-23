@@ -15,7 +15,7 @@
 
 
     //RETRIVE CURRENT DAY
-//     let  dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+// let  dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 // let now = new Date();
 // let theDay = now.getDay();
 // let nameOfToday = dayNames[theDay];
@@ -31,12 +31,16 @@
 // console.log(monthName);
 
 // let d = new Date();
-// d.setMonth(11);
+// d.setMonth(2);
 // console.log(d)
 
 // let a = new Date()
-// a.setHours(10)
+// a.setHours(7)
 // console.log(a)
+
+// let c = new Date()
+// c.setSeconds(30)
+// console.log(c)
 
 //35   Functions
 
