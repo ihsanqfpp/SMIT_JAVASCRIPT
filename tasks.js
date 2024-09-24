@@ -311,16 +311,15 @@
 
  //without tempreory variable 
  
-let a = +prompt("enter value of a");
-let b = +prompt("enter value of b");
-console.log('the value of a is : ' +a, 'the value of b is : ' +b);
-console.log("after swapping")
+// let a = +prompt("enter value of a");
+// let b = +prompt("enter value of b");
+// console.log('the value of a is : ' +a, 'the value of b is : ' +b);
+// console.log("after swapping")
 
- a = a + b;
- b = a - b;
- a = a - b;
- console.log('the value of a is : ' +a, 'the value of b is : ' +b);
-
+//  a = a + b;
+//  b = a - b;
+//  a = a - b;
+//  console.log('the value of a is : ' +a, 'the value of b is : ' +b);
 
    
 
