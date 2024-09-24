@@ -44,6 +44,35 @@
 
 //35   Functions
 
+// function firstName(){
+//     console.log("ihsan ullah");
+// }
+// function last(){
+//     console.log("orakzai");
+// }
+// firstName();
+// last();
+
+// function sum(a,b){
+//     console.log(a  + b);
+//     console.log(a - b);
+//     console.log(a * b);
+//     console.log(a / b);
+// }
+// sum(30,10)
+
+// function sum(math,sc,eng,urdu){
+//     let marks = math + sc + eng + urdu;
+//     return marks;
+// }
+// function percentage(tt){
+//     let per = tt/400 * 100;
+//     console.log(per);
+// }
+// let totalMarks = sum(50,95,75,65);
+// percentage(totalMarks);
+
+
 // function subtraction(num1 , num2){
 //     console.log(num1 - num2);
 // }
