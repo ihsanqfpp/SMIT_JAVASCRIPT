@@ -227,6 +227,7 @@
 //    console.log("invalid route ! please check your station ")
 // }
 
+//task 18
 // let email = prompt ("enter your email")
 // let pass = prompt("enter your password")
 
@@ -243,6 +244,7 @@
 // }
 // alert("email or password is wrong")
 
+//task 19
 // let startTime = prompt("Enter your start time (e.g., '6AM', '12PM')");
 // let endTime = prompt("Enter the end time (e.g., '12PM', '6PM')");
 
@@ -267,6 +269,57 @@
 //    console.log("You entered wrong");
 // }
 
+
+//task 20 find square root of a number
+
+// let num1 = prompt("enter a  number");
+// let num2 = Math.sqrt(num1);
+// console.log(num2)
+
+
+// let num2 = Math.sqrt(100);
+// console.log(num2)
+
+//task 21 to find area of  right angle triangle formaula (base * height)/2
+
+// let base = prompt("enter the base value");
+// let height = prompt("enter the height value");
+// let area = (base * height)/2;
+// console.log("Base : "+base,"height :" +height, "area : " +area)
+
+//task 22 find area of regular triangle
+
+// let a = +prompt("enter the  value of a");
+// let b = +prompt("enter the  value of b");
+// let c =  +prompt("enter value of c");
+// let d = (a + b + c) / 2;
+// let temp = d *(d -a)*(d-b)*(d-c);
+// let area = Math.sqrt(temp);
+// console.log(area)
+
+//task 23 swapping of two nnumbers
+//using tempreory varibale 
+
+// let a = prompt("enter value of a");
+// let b = prompt("enter value of b");
+// console.log('the value of a is : ' +a, 'the value of b is : ' +b);
+// console.log("after swapping")
+//  temp = a;
+//  a = b;
+//  b = temp;
+//  console.log('the value of a is : ' +a, 'the value of b is : ' +b);
+
+ //without tempreory variable 
+ 
+let a = +prompt("enter value of a");
+let b = +prompt("enter value of b");
+console.log('the value of a is : ' +a, 'the value of b is : ' +b);
+console.log("after swapping")
+
+ a = a + b;
+ b = a - b;
+ a = a - b;
+ console.log('the value of a is : ' +a, 'the value of b is : ' +b);
 
 
    

@@ -85,6 +85,58 @@
 //     console.log(time.getHours() +" : " + time.getMinutes())
 // }
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//      EVENTS
+
+//01:click(onclick)
+
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// sum();
+
+//02:Double click(ondblclick)
+
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//03:right click(oncontextmenu)
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//04:mousehover(onmouseenter)
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//05:mouseout(onmouseout)
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//06:mouseup(onmouseup)
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//07:mousedown(onmousedown)
+// function Name(){
+//     alert("ihsan ullah orakzai")
+// }
+// Name();
+
+//08:keypress(onkeypress) 09:keyup(onkeyup) 10:load(onload) 11:unload(onunload) 12:resize(onresize) 12:scroll(onscroll)
+
+
+
 
 
 
