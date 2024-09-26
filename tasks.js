@@ -321,6 +321,46 @@
 //  a = a - b;
 //  console.log('the value of a is : ' +a, 'the value of b is : ' +b);
 
+//task 24  celsius convert into franhiate
+
+// let celsius = +prompt("enter temp in celsius");
+// let frnht = (celsius * 1.8) + 32;
+// console.log(frnht);
+
+//task 25 conversion of kelometeres into miles 
+
+// let kms = prompt("enter kilogram");
+// const factor = 0.621371;
+// let miles = kms * factor;
+// console.log(miles);
+
+//task 26 check if  a number is positive,negative or zero
+// let num = prompt("enter a number");
+// let res = Math.sign(num);
+// console.log(res);
+
+//BY OTHER METHOD
+// let num = prompt("enter a number");
+// if (num > 0){
+//    console.log(num + " : " +"is positive");
+// }
+// else if(num < 0){
+//    console.log(num  +" : " +"is negative");
+// }
+// else{
+//    console.log(num + " : " +"is zero")
+// }
+
+//task 27 rendom number between range (1-100)
+//formula : math.random() * (highest number - lowest number ) + lowest number
+
+// let a = Math.random() * (100 - 1) + 1;
+// console.log(a);
+
+
+
+
+
    
 
 
