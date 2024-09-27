@@ -42,6 +42,8 @@
 // c.setSeconds(30)
 // console.log(c)
 
+//############################################################################################
+
 //35   Functions
 
 // function firstName(){
@@ -84,6 +86,8 @@
 // function counter(){
 //     console.log(time.getHours() +" : " + time.getMinutes())
 // }
+
+
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -135,7 +139,7 @@
 
 //08:keypress(onkeypress) 09:keyup(onkeyup) 10:load(onload) 11:unload(onunload) 12:resize(onresize) 12:scroll(onscroll)
 
-
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 

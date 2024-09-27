@@ -206,7 +206,7 @@
 //    alert ("email is wrong")
 // }
 
-//TASK 17 
+//TASK 18
 
 // let startStation = prompt (" please enter your start station name ");
 // let endStation = prompt (" please enter your end station name ");
@@ -227,7 +227,7 @@
 //    console.log("invalid route ! please check your station ")
 // }
 
-//task 18
+//task 19
 // let email = prompt ("enter your email")
 // let pass = prompt("enter your password")
 
@@ -244,7 +244,7 @@
 // }
 // alert("email or password is wrong")
 
-//task 19
+//task 20
 // let startTime = prompt("Enter your start time (e.g., '6AM', '12PM')");
 // let endTime = prompt("Enter the end time (e.g., '12PM', '6PM')");
 
@@ -270,7 +270,7 @@
 // }
 
 
-//task 20 find square root of a number
+//task 21 find square root of a number
 
 // let num1 = prompt("enter a  number");
 // let num2 = Math.sqrt(num1);
@@ -280,14 +280,14 @@
 // let num2 = Math.sqrt(100);
 // console.log(num2)
 
-//task 21 to find area of  right angle triangle formaula (base * height)/2
+//task 22 to find area of  right angle triangle formaula (base * height)/2
 
 // let base = prompt("enter the base value");
 // let height = prompt("enter the height value");
 // let area = (base * height)/2;
 // console.log("Base : "+base,"height :" +height, "area : " +area)
 
-//task 22 find area of regular triangle
+//task 23 find area of regular triangle
 
 // let a = +prompt("enter the  value of a");
 // let b = +prompt("enter the  value of b");
@@ -297,7 +297,7 @@
 // let area = Math.sqrt(temp);
 // console.log(area)
 
-//task 23 swapping of two nnumbers
+//task 24 swapping of two nnumbers
 //using tempreory varibale 
 
 // let a = prompt("enter value of a");
@@ -321,20 +321,20 @@
 //  a = a - b;
 //  console.log('the value of a is : ' +a, 'the value of b is : ' +b);
 
-//task 24  celsius convert into franhiate
+//task 25  celsius convert into franhiate
 
 // let celsius = +prompt("enter temp in celsius");
 // let frnht = (celsius * 1.8) + 32;
 // console.log(frnht);
 
-//task 25 conversion of kelometeres into miles 
+//task 26 conversion of kelometeres into miles 
 
 // let kms = prompt("enter kilogram");
 // const factor = 0.621371;
 // let miles = kms * factor;
 // console.log(miles);
 
-//task 26 check if  a number is positive,negative or zero
+//task 27 check if  a number is positive,negative or zero
 // let num = prompt("enter a number");
 // let res = Math.sign(num);
 // console.log(res);
@@ -351,7 +351,7 @@
 //    console.log(num + " : " +"is zero")
 // }
 
-//task 27 rendom number between range (1-100)
+//task 28 rendom number between range (1-100)
 //formula : math.random() * (highest number - lowest number ) + lowest number
 
 // let a = Math.random() * (100 - 1) + 1;
