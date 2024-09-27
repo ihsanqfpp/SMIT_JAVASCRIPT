@@ -87,6 +87,7 @@
 //     console.log(time.getHours() +" : " + time.getMinutes())
 // }
 
+ 
 
 
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -140,6 +141,78 @@
 //08:keypress(onkeypress) 09:keyup(onkeyup) 10:load(onload) 11:unload(onunload) 12:resize(onresize) 12:scroll(onscroll)
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+//38 Functions:Local vs. global variables
+// {
+//     let num =20;
+//     num = 40;
+//     console.log(num)
+// }
+// {
+//     let num = 20;
+//     console.log(num)
+// 
+// {
+//     var name1 = "ihsan"
+// }
+// console.log(name1)
+
+// {
+//     const num1 = 30;
+//     const num2 = num1 + 70;
+//     console.log(num2)
+// }
+
+// {
+//     let i  = 0;
+//     for ( let i=0; i<5; i++)
+//         console.log(i)
+// }
+
+//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+//39 switch statements:
+
+// switch(new Date().getMonth()){
+//     case 0:
+//         month = "january";
+//         break;
+//     case 1:
+//         month = "february";
+//         break;
+//     case 2:
+//         month = "march";
+//             break;
+//     case 3:
+//         month = "april";
+//                 break;
+//     case 8:
+//         month = "september";
+//         break;
+// }
+// console.log(month)
+ 
+
+// let color = prompt("enter color name");
+// switch(color){
+//     case "red":
+//         console.log("please stop");
+//         break;
+//     case "orange":
+//         console.log("you may go now");
+//         break;
+//     case "yellow":
+//         console.log("please be ready");
+//         break;
+// }
+
+//41 while loops
+
+let i = 0
+while (i < 100 ){
+    console.log(i)
+    i++
+}
+
+
 
 
 
