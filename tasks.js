@@ -358,7 +358,7 @@
 // console.log(a);
 
 //task 29 Fruit Price Checker
- let fruit = prompt("enter fruit name");
+ //let fruit = prompt("enter fruit name");
 
 // switch (fruit) {
 //    case "apple":
@@ -380,12 +380,7 @@
 //    default:
 //       break;
 // }
-switch(fruit){
-   case "apple":
-      console.log ("the price is : 300");
-      break;
-}
-console.log(fruit);
+
 
 
 
