@@ -357,6 +357,36 @@
 // let a = Math.random() * (100 - 1) + 1;
 // console.log(a);
 
+//task 29 Fruit Price Checker
+ let fruit = prompt("enter fruit name");
+
+// switch (fruit) {
+//    case "apple":
+//       console.log("price is : 300")
+//       break;
+//    case "mango":
+//       console.log("price is : 200")
+//       break;
+//       case "banana":
+//       console.log("price is : 500")
+//       break;
+//       case "orange":
+//       console.log("price is : 100")
+//       break;
+//       case "kabaab":
+//       console.log("price is : 800")
+//       break;
+
+//    default:
+//       break;
+// }
+switch(fruit){
+   case "apple":
+      console.log ("the price is : 300");
+      break;
+}
+console.log(fruit);
+
 
 
 

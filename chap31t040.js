@@ -204,13 +204,42 @@
 //         break;
 // }
 
+//calculator by switch statement
+// let num1  = +prompt("entr number 1 ");
+// let num2 = +prompt("enter number 2");
+// let opr = prompt("enter operator please")
+
+// switch (opr){
+//     case "+" :
+//         console.log("the addition of these numbers is : " + (num1 + num2) )
+//         break;
+//     case "-":
+//         console.log("the subtraction of these numbers is : " + (num1 - num2) )
+//         break;
+//     case "*":
+//         console.log("the multiplication of these numbers is : " + (num1 * num2) )
+//         break;
+//         case "/":
+//         console.log("the division of these numbers is : " + (num1 / num2) )
+//         break;
+        
+
+//     default:
+//         console.log("you entered invalid operator")
+//         break;
+// }
+
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 //41 while loops
 
-let i = 0
-while (i < 100 ){
-    console.log(i)
-    i++
-}
+// let i = 0
+// while (i < 100 ){
+//     console.log(i)
+//     i++
+// }
+
+
 
 
 
