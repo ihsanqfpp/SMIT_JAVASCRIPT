@@ -101,12 +101,22 @@
 // }
 // sum();
 
+//to chnge the color of h1 text
+// function color(){
+//     document.body.style.color = 'red';
+// }
+
+
 //02:Double click(ondblclick)
 
 // function Name(){
 //     alert("ihsan ullah orakzai")
 // }
 // Name();
+
+// function color(){
+//     console.log("ihsan ullah orakzai")
+// }
 
 //03:right click(oncontextmenu)
 // function Name(){
@@ -137,6 +147,12 @@
 //     alert("ihsan ullah orakzai")
 // }
 // Name();
+
+//onchange 
+
+// function color(){
+//     console.log("ihsan ullah orakzai")
+// }
 
 //08:keypress(onkeypress) 09:keyup(onkeyup) 10:load(onload) 11:unload(onunload) 12:resize(onresize) 12:scroll(onscroll)
 
