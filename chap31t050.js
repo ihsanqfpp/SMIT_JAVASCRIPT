@@ -205,6 +205,30 @@
 //         break;
 // }
 // console.log(month)
+
+
+// let day= new Date().getDay()
+// switch(day){
+//     case 0:
+//         day = "sunday";
+//         break;
+//     case 1:
+//         day = "monday";
+//         break;
+//     case 2:
+//         day = "tuesday";
+//             break;
+//     case 3:
+//         day = "wednesday";
+//                 break;
+//     case 4:
+//         day = "thursday";
+//         break;
+//     case 5:
+//         day = "friday"
+//         break;
+// }
+// console.log(day)
  
 
 // let color = prompt("enter color name");
@@ -254,6 +278,26 @@
 //     console.log(i)
 //     i++
 // }
+// /////////////////////////////////////////////////////////////////////////////////////
+
+//57  Target some elements by tag name
+
+// let pra = document.querySelector("p").innerHTML;
+// pra = "i am fine thank u for asking"
+// console.log(pra)
+
+// let pra = document.querySelector("p");
+// console.log(pra)
+
+function btn1(){
+    let pra = document.querySelector("p").style.color = "green";
+}
+function btn2(){
+    let pra = document.querySelector("p").style.color = "red";
+}
+function btn3(){
+    let pra = document.querySelector("p").style.color = "blue";
+}
 
 
 
