@@ -289,15 +289,20 @@
 // let pra = document.querySelector("p");
 // console.log(pra)
 
-function btn1(){
-    let pra = document.querySelector("p").style.color = "green";
-}
-function btn2(){
-    let pra = document.querySelector("p").style.color = "red";
-}
-function btn3(){
-    let pra = document.querySelector("p").style.color = "blue";
-}
+// function btn1(){
+//     let pra = document.querySelector("p").style.color = "green";
+// }
+// function btn2(){
+//     let pra = document.querySelector("p").style.color = "red";
+// }
+// function btn3(){
+//     let pra = document.querySelector("p").style.color = "blue";
+// }
+
+let input = document.querySelector("input").value
+input= "pakistan"
+console.log(input)
+
 
 
 
