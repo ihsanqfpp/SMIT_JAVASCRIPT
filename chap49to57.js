@@ -72,5 +72,49 @@
 
 // }
 
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+//56 Target all elements by tag name
+
+// function myparagraph(){
+//     let paragraph = document.getElementsByTagName('p');
+//     console.log(paragraph);
+
+//     for(let i=0; i<paragraph.length;i++){
+//         paragraph[i].classList.add('styled');
+//     }
+
+// }
+
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+//57 Target some elements by tag name
+//get all <li>elements
+
+// let items = document.getElementsByTagName('li');
+// //highlight even items 
+
+// document.getElementById('highlighteven').onclick = function (){
+//     for (let i=0; i < items.length; i++){
+//         if((i + 1) % 2 === 0){
+//             items[i].classList.add('highlight')
+//         }
+//     }
+// };
+
+// document.getElementById('highlightodd').onclick = function (){
+//     for (let i=0; i < items.length; i++){
+//         if((i + 1) % 2 !== 0){
+//             items[i].classList.add('highlight')
+//         }
+//     }
+// };
+
+// //reset all items 
+
+// document.getElementById('Reset').onclick = function (){
+//     for (let i = 0; i<items.length; i++){
+//         items[i].classList.remove('highlight')
+//     }
+// }
 
