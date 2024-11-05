@@ -28,6 +28,8 @@
 //######################################################################
 
 //60 :The DOM:Finding children
+//children:returns only child elements (actual html elements like h1,p,span,div etc)
+//childNodes: returns all child nods,including text nodes,comments etc
 
 //select the parent element
 // let parent = document.getElementById('parentDiv');
@@ -56,4 +58,65 @@
 //          children[i].style.backgroundColor = "red"; // Corrected 'backgroundColor'
 //      }
 //  }
- 
+ //%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+//  61 :The DOM:Junk artifacts and nodeType
+
+// let container = document.getElementById("container");
+// let children = container.childNodes;
+// let junk = []
+// let elementNodes = []
+
+// for (let i = 0; i < children.length; i++){
+//     // console.log(children[i]);
+//     if(children[i] .nodeType !== 1){
+//         junk.push(children[i])
+//     }
+//     else{
+//         elementNodes.push(children[i])
+//     }
+// }
+// console.table([children,junk,elementNodes]);
+
+//what is nodeType property?
+      //the node type property returns node type, as a number,of the specified node.
+
+//if the node is an element node, the nodeType property will return 1.
+//if the node is an attribute node, the nodeType property will return 2.
+//if the node is an text node, the nodeType property will return 3.
+//if the node is an comment node, the nodeType property will return 8.
+//this property is read only
+
+//  let container = document.getElementById("container");
+// let children = container.childNodes;
+
+// for (let i = 0; i<children.length; i++){
+//     if(children[i].nodeType === 1){
+//         console.log("element node : ", children[i]);
+//     }
+//     else if(children[i].nodeType === 3){
+//         console.log("text node :" , children[i].textContent.trim());
+//     }
+//     else if (children[i].nodeType === 8){
+//         console.log("comment node : ", children[i].nodeValue);
+//     }
+// }
+//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+// 62 :The DOM:More ways to target elements
+
+// discussing in this chapter :
+// firstChild:targets the first child node of an elements
+// lastChild: targets the last child node of an elements
+// nextSibling:returns the next Sibling  node of the current elements
+// previousSibling:return the previous sibling node
+
+//target the first element of child
+// let list = document.getElementById("myList");
+// let firstItem = list.firstElementChild;
+// console.log(firstItem);
+
+//target the last element child
+// let list = document.getElementById("myList");
+// let lastItem = list.lastElementChild;
+// console.log(lastItem);
