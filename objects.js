@@ -175,3 +175,72 @@
 // console.log("owner" in delt)//owner exists in delt object
 // console.log("tyres" in delt)//tyres does not exist in delt object
 
+//???????????????????????????????????????????????????????????????
+
+//71:Objects:Methods
+
+//add methods to an object
+
+//create an empty object
+
+// let car = {}
+
+// //add some properties
+// car.color = "black"
+// car.model = 2002
+
+// //add method to start car
+// car.start = function(){
+//     console.log("the car has started ")
+// }
+// car.start()
+
+//create object with props and methods
+
+// let info = {
+//     name: "Ihsan Ullah",
+//     village: "Sarozai Piala",
+//     city: "Hangu",
+//     age: 22,
+//     start: function() {
+//         console.log("my name is : " +this.name +" " + "and i belong from the village : " +this.village);
+//     }
+// };
+
+// info.start();
+
+//method with return
+
+// let info = {
+//     name: "Ihsan Ullah",
+//     village: "Sarozai Piala",
+//     city: "Hangu",
+//     age: 22,
+//     start: function() {
+//        // return("my name is : " +this.name +" " + "and i belong from the village : " +this.village);
+//         return "my district name is : " +this.city + " " +"and my age is : " +this.age//this keyword refers to the current object
+//      }
+// };
+
+// // console.log(info.start());
+// let returnString = info.start()
+// console.log(returnString)
+
+//benefit of object
+
+// let person = {
+//     Name : "ihsan ullah",
+//     age : 22,
+//     city : "orakzai agency",
+//     profession : "student",
+//     start : function(){
+//         return this.Name + " " + this.age
+//     },
+//     brithrday : function(){
+//         this.age += 1;
+//         console.log("happy brithday you are now " +this.age + " " +"years old"); 
+//     }
+// }
+// //console.log(person.start())//output : ihsan ullah 22
+// person.brithrday()
+
