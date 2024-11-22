@@ -250,7 +250,14 @@ let arr = [];
 
 const input = document.getElementById("input");
 
+
 function add(){
     arr.push(input.value);
     console.log(arr)
+}
+function remove() {
+    if (arr.length > 0) {
+        arr.pop();
+        console.log(arr);
+    } 
 }
