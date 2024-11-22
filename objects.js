@@ -244,3 +244,13 @@
 // //console.log(person.start())//output : ihsan ullah 22
 // person.brithrday()
 
+//''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''""""
+
+let arr = [];
+
+const input = document.getElementById("input");
+
+function add(){
+    arr.push(input.value);
+    console.log(arr)
+}

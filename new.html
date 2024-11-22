@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    #todoList {
+      margin-top: 10px;
+    }
+    li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <input type="text" id="newTask" placeholder="Enter a new task">
+  <button id="addTaskBtn">Add Task</button>
+  <ul id="todoList"></ul>
+
+  <script>
+    const todoList = [];
+    const newTaskInput = document.getElementById('newTask');
+    const addTaskBtn = document.getElementById('addTaskBtn');
+    const todoListElement = document.getElementById('todoList');
+
+    
+    function addTask() {
+      const task = newTaskInput.value.trim();
+      if (task !== '') {
+        todoList.push(task);
+
+        // Clear the input field
+        newTaskInput.value = '';
+
+        // Update the displayed list
+        updateTodoList();
+      } else {
+        alert('Please enter a task.');
+      }
+    }
+
+    // Function to update the displayed to-do list
+    function updateTodoList() {
+      // Clear the existing list
+      todoListElement.innerHTML = '';
+
+      // Render each task as a list item
+      todoList.forEach((task, index) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = task;
+        todoListElement.appendChild(listItem);
+      });
+    }
+
+    // Add event listener to the button
+    addTaskBtn.addEventListener('click', addTask);
+  </script>
+</body>
+</html>
