@@ -246,18 +246,58 @@
 
 //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''""""
 
-let arr = [];
+// 72:"Objects:Constructors
 
-const input = document.getElementById("input");
+// function Car(color, model, year){
+//     this.color = color;
+//     this.model = model;
+//     this.year = year;
+// }
 
+// //create new objects using constructor function
 
-function add(){
-    arr.push(input.value);
-    console.log(arr)
-}
-function remove() {
-    if (arr.length > 0) {
-        arr.pop();
-        console.log(arr);
-    } 
-}
+// let car1 = new Car("sliver" , "toyota", 2021);
+
+// let car2 = new Car("white" , "honda", 2022);
+// console.table([car1,car2])
+// console.log(car1)
+// console.log(car2)
+
+// //add methods to constructor
+// function Car(c, m, y){
+//     this.color = c;
+//     this.model = m;
+//     this.year = y;
+//     this.start = function(){
+//         console.log(this.model + " has started")
+//         console.log(this.color +" " + "is the color")
+//     };
+// }
+// //testing constructor method
+// let car3 = new Car("black", "BMW" , 2002);
+// let car4 = new Car("white" , "mercedes", 2022);
+// let car5 = new Car("white" , "hevel", 2022);
+// car3.start();
+// car4.start();
+// car5.start()
+
+//another real word example
+
+// function Person(firstName, lastName,a){
+//     this.fn = firstName;
+//     this.ln = lastName;
+//     this.age = a;
+//     this.printFullName = function(){
+//         console.log(`${firstName} ${lastName} and age is ${this.age}` )
+//     }
+// }
+// let person1 = new Person("ali", "rehman", 22);
+// let person2 = new Person("ihsan", "ullah", 20);
+// let person3 = new Person("adil", "khan", 18);
+// // console.log(person1);
+// // console.log(person2);
+// // console.log(person3);
+// // console.log(person1, person2,person3)
+// person1.printFullName()
+// person2.printFullName()
+// person3.printFullName()
