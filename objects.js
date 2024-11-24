@@ -301,3 +301,54 @@
 // person1.printFullName()
 // person2.printFullName()
 // person3.printFullName()
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//75 :Objects:Checking for properties and methods
+
+//HOW TO CHECK PROPERTIES IN AN OBJECT
+
+//method 1: using the in operator
+
+// let car = {
+//     model : "toyota",
+//     color : "red"
+// }
+// console.log("model" in car)//return true
+// console.log("year" in car)//return false bcz it does not exist
+
+// //METHOD 2: using the hasOwnProperty() method
+// console.log(car.hasOwnProperty("model"));//return true
+// console.log(car.hasOwnProperty("year"));//return false bcz it does not exist
+
+//METHOD 3 : using typeof to check for methods
+//example function and its using typeof operator (just to clarify stuff)
+
+// function  test(){
+// }
+// console.log(typeof test)
+
+// let car = {
+//     model : "toyota",
+//     color : "red",
+//     year : 2022,
+//     start : function(){
+//         console.log("car is starting")
+
+//     }
+// };
+// console.log(typeof car.start ==='function')
+// console.log(typeof car.stop ==='function')
+
+//METHOD 4 : using undefined check
+
+// let car = {
+//     model : "toyota",
+//     color : "red",
+//     //year : 2022,
+// };
+// if (car.year === undefined){
+//     alert("year doesn't exist on car ")
+// }
+// else{
+//     alert("wawoo! year exist on car")
+// }
